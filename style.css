@@ -1,0 +1,54 @@
+body{
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post{
+    background: white;
+    width: 400px;
+}
+.post header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: flex-start;
+    margin-left: 0.3rem;
+}
+.text-container p{
+    margin: 0;
+    padding: 0;
+}
+img{ 
+    width: 100%;
+    height: 100%;
+    
+}
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconos div{
+  margin-top: 0.3rem;
+}
+.iconos > div i{
+    margin: 0 0.1rem;
+}
+.iconos i{
+    margin-right: 0.3rem;
+}
+.parrafos{
+    padding: 0.3rem;
+}
